@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Color API</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <form action="" class="colorchoice" id="colorform">
+            <input type="color" name="selectedcolor" id="selectedcolor">
+            <select name="coloroptions" id="coloroptions">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+
+            <div class="btnSubmit">
+                <input type="submit" id="submitbutton" value="Get Color Scheme">
+            </div>
+        </form>
+    </div>
+
+    <div class="colorbox">
+        <div class="container" id="colorcontainer">
+            <div class="box box0" id="box0" onclick="copyColorDefault(this.id)">
+                <span class="colorval" id="colorval">#F55A5A</span>
+                <span class="copiedtxt" id="copiedtxt">Copied to Clipboard!!</span>
+            </div>
+
+            <div class="box box1" id="box1" onclick="copyColorDefault(this.id)">
+                <span class="colorval" id="colorval">#2B283A</span>
+                <span class="copiedtxt" id="copiedtxt">Copied to Clipboard!!</span>
+            </div>
+
+            <div class="box box2" id="box2" onclick="copyColorDefault(this.id)">
+                <span class="colorval" id="colorval">#FBF3AB</span>
+                <span class="copiedtxt" id="copiedtxt">Copied to Clipboard!!</span>
+            </div>
+
+            <div class="box box3" id="box3" onclick="copyColorDefault(this.id)">
+                <span class="colorval" id="colorval">#AAD1B6</span>
+                <span class="copiedtxt" id="copiedtxt">Copied to Clipboard!!</span>
+            </div>
+
+            <div class="box box4" id="box4" onclick="copyColorDefault(this.id)">
+                <span class="colorval" id="colorval">#A626D3</span>
+                <span class="copiedtxt" id="copiedtxt">Copied to Clipboard!!</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

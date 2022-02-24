@@ -1,0 +1,7 @@
+# Color Scheme Generator
+
+##### Helps in getting a color scheme for a given seed color.
+
+Color scheme is generating using [The Color API](https://www.thecolorapi.com/).
+
+This was an awesome fun solo project which was suggested by [Bob Ziroll](https://github.com/bobziroll) from scrimba's [Front-end Developer Career Path](https://scrimba.com/learn/frontend).
